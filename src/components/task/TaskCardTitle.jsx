@@ -3,7 +3,7 @@ import React, {useState} from "react";
 export const TaskCardTitle = () => {
   const [isClick, setIsClick] = useState(false)
 
-  const [inputCardTitle, setInputCardTitle] = useState("Today")
+  const [inputCardTitle, setInputCardTitle] = useState("朝ごはん")
 
   const handleClick = () => {
     setIsClick(true)
@@ -15,6 +15,9 @@ export const TaskCardTitle = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
+    if (event.target[0].value === "") {
+      return
+    }
     setIsClick(false)
   }
 

@@ -36,7 +36,7 @@ export const TaskAddInput = ({inputText, setInputText, taskList, setTaskList}) =
           className="taskAddInput"
           type="text"
           value={inputText}
-          placeholder="add a task"
+          placeholder="おかわり"
           onChange={handleChange}
         />
       </form>

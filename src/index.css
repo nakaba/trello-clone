@@ -19,7 +19,8 @@ header {
 }
 
 .app {
-  background: url(../src/images/mountain.jpg) no-repeat;
+  background: url(../src/images/tai.jpeg) no-repeat;
+  background-position: center;
   height: 100vh;
 }
 
@@ -33,7 +34,7 @@ header {
 
 .taskCardTitleInputArea {
   margin-bottom: 10px;
-  width: 30%;
+  width: 80%;
   cursor: pointer;
 }
 
